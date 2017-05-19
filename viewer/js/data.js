@@ -1,6 +1,6 @@
 var data = [
   {
-    "name": "alert",
+    "name": "deprecated-alert",
     "items": [
       "help.svg",
       "info.svg",
@@ -8,21 +8,21 @@ var data = [
     ]
   },
   {
-    "name": "badges",
+    "name": "deprecated-badges",
     "items": [
       "update-failed.svg",
       "update-success.svg"
     ]
   },
   {
-    "name": "branding",
+    "name": "deprecated-branding",
     "items": [
       "firefox.svg",
       "nightly.svg"
     ]
   },
   {
-    "name": "content",
+    "name": "deprecated-content",
     "items": [
       "character-encoding.svg",
       "copy.svg",
@@ -38,7 +38,7 @@ var data = [
     ]
   },
   {
-    "name": "developer",
+    "name": "deprecated-developer",
     "items": [
       "add.svg",
       "app.svg",
@@ -105,7 +105,7 @@ var data = [
     ]
   },
   {
-    "name": "general",
+    "name": "deprecated-general",
     "items": [
       "addon.svg",
       "mail.svg",
@@ -118,7 +118,7 @@ var data = [
     ]
   },
   {
-    "name": "media",
+    "name": "deprecated-media",
     "items": [
       "caption.svg",
       "cast.svg",
@@ -133,7 +133,7 @@ var data = [
     ]
   },
   {
-    "name": "navigation",
+    "name": "deprecated-navigation",
     "items": [
       "back-large.svg",
       "back-secondary.svg",
@@ -161,7 +161,7 @@ var data = [
     ]
   },
   {
-    "name": "permissions",
+    "name": "deprecated-permissions",
     "items": [
       "camera-disable.svg",
       "camera.svg",
@@ -189,7 +189,7 @@ var data = [
     ]
   },
   {
-    "name": "places",
+    "name": "deprecated-places",
     "items": [
       "bookmark-starred.svg",
       "bookmark.svg",
@@ -206,7 +206,7 @@ var data = [
     ]
   },
   {
-    "name": "reader",
+    "name": "deprecated-reader",
     "items": [
       "exit.svg",
       "narrate-faster.svg",
@@ -216,6 +216,18 @@ var data = [
       "reader-view.svg",
       "type-controls-serif.svg",
       "type-controls.svg"
+    ]
+  },
+  {
+    "name": "deprecated-security",
+    "items": [
+      "identity-mixed-active-blocked.svg",
+      "identity-mixed-active-loaded.svg",
+      "identity-mixed-passive-loaded.svg",
+      "identity-not-secure.svg",
+      "identity-secure.svg",
+      "tracking-protection-disabled.svg",
+      "tracking-protection.svg"
     ]
   }
 ]
