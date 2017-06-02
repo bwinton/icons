@@ -69,6 +69,21 @@ var data = [
     ]
   },
   {
+    "name": "addons",
+    "items": [
+      "dictionary.svg",
+      "discovery-page.svg",
+      "experiments.svg",
+      "extensions-update.svg",
+      "extensions.svg",
+      "legacy.svg",
+      "plugins.svg",
+      "search.svg",
+      "services.svg",
+      "themes.svg"
+    ]
+  },
+  {
     "name": "deprecated-alert",
     "items": [
       "help.svg",
