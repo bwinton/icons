@@ -25,6 +25,7 @@ var data = [
       "device-mobile-16.svg",
       "download-16.svg",
       "extensions-16.svg",
+      "external-link-16.svg",
       "folder-16.svg",
       "forget-16.svg",
       "forward-16.svg",
