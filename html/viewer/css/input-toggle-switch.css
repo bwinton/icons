@@ -33,3 +33,13 @@
   border-radius: 100%;
   border: 1px solid var(--grey-30);
 }
+
+input:checked + .toggle,
+input:focus + .toggle {
+  background-color: var(--blue-50);
+}
+
+input:checked + .toggle:before {
+  transform: translateX(18px);
+  border-color: var(--blue-50);
+}

@@ -178,16 +178,6 @@ label small {
   text-transform: uppercase;
 }
 
-input:checked + .toggle,
-input:focus + .toggle {
-  background-color: var(--blue-50);
-}
-
-input:checked + .toggle:before {
-  transform: translateX(18px);
-  border-color: var(--blue-50);
-}
-
 /** Footer Buttons **/
 
 #download {
