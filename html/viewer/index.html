@@ -8,7 +8,7 @@
   <link href="css/input-toggle-switch.css" rel="stylesheet"/>
 </head>
 <body>
-  <div id="headline">Photon Icons</div>
+  <h1 id="headline">Photon Icons</h1>
   <input type="text" placeholder="Search Icons" id="search-input"/>
   <div id="icon-list" hidden></div>
   <div id="loading">Loading icons...</div>
@@ -25,25 +25,25 @@
         <div class="section platform">
           <div class="title">Platform</div>
           <div class="checkbox">
-            <input type="checkbox" value="svg" id="desktop-web" checked><label for="desktop-web"><span>Desktop/Web</span></label><br>
+            <input type="checkbox" id="desktop-web" checked><label for="desktop-web"><span>Desktop/Web</span></label><br>
           </div>
           <div class="checkbox">
-            <input type="checkbox" value="ios" id="ios" disabled><label for="ios"><span>iOS</span><small>Coming Soon</small></label><br>
-          </div>
+            <input type="checkbox" id="ios" disabled><label for="ios"><span>iOS</span><small>Coming Soon</small></label><br>
+          </div class="checkbox">
           <div class="checkbox">
-            <input type="checkbox" value="android" id="Android" disabled><label for="android"><span>Android</span><small>Coming Soon</small></label>
+            <input type="checkbox" id="Android" disabled><label for="android"><span>Android</span><small>Coming Soon</small></label>
           </div>
         </div>
         <div class="section fill">
-          <div class="title">Fill</div>
+          <div class="title">Icon Fill</div>
           <div class="radio">
-            <input type="radio" name="fill" value="context-fill" id="context-fill" checked><label for="context-fill"><span>Context Fill</span></label>
+            <input type="radio" name="fill" id="context-fill" checked><label for="context-fill"><code><img src="images/context-fill.svg" alt="Context Fill"></code></label>
           </div>
           <div class="radio">
-            <input type="radio" name="fill" value="rgba(12, 12, 13, .8)" id="dark"><label for="dark"><span>Dark</span></label><br>
+            <input type="radio" name="fill" id="dark"><label for="dark"><span>Dark</span></label><br>
           </div>
           <div class="radio">
-            <input type="radio" name="fill" value="rgba(249, 249, 250, .8)" id="light"><label for="light"><span>Light</span></label><br>
+            <input type="radio" name="fill" id="light"><label for="light"><span>Light</span></label><br>
           </div>
         </div>
         <!-- Display this section only if iOS and/or Android checkboxes are selected -->
@@ -62,13 +62,11 @@
       </div>
     </footer>
   </div>
-
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-98252211-2', 'auto');
     ga('send', 'pageview');
   </script>
